@@ -4,9 +4,16 @@
       "route": "/admin",
       "redirect": "https://google.com",
       "statusCode": 307
+    },
+    {
+      "route": "/profile",
+      "methods": [
+        "get"
+      ],
+      "redirect": "https://google.com"
     }
   ],
   "navigationFallback": {
-        "rewrite": "/index.html"
-    }
+    "rewrite": "/index.html"
+  }
 }
