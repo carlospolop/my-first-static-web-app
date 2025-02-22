@@ -3,7 +3,7 @@
     {
       "route": "/admin",
       "redirect": "https://google.com",
-      "statusCode": 302
+      "statusCode": 307
     }
   ],
   "navigationFallback": {
