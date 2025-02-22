@@ -1,5 +1,12 @@
 {
-    "navigationFallback": {
+  "routes": [
+    {
+      "route": "/admin",
+      "redirect": "https://google.com",
+      "statusCode": 302
+    }
+  ],
+  "navigationFallback": {
         "rewrite": "/index.html"
     }
 }
